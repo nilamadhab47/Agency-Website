@@ -42,8 +42,9 @@ const Contact = () => {
             title="re<b>im</b>agine the <br /> way you <br /> do b<b>u</b>siness."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
-
-          <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+          <a href="https://team-intro.vercel.app/">
+            <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+          </a>
         </div>
       </div>
     </div>
